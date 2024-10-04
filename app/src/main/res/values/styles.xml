@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.Theme.Quzze.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.Quzze.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:statusBarColor">@color/blue</item> <!-- This sets the status bar color -->
+        <item name="android:windowLightStatusBar">false</item> <!-- Makes sure text is white on dark backgrounds -->
+    </style>
+</resources>

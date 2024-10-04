@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutFragment"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+       <!-- Trophy Image -->
+       <ImageView
+           android:id="@+id/trophyImage"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/trophy_background"
+           android:contentDescription="trophy_image"/>
+
+       <!-- Congratulations Text -->
+       <TextView
+           android:id="@+id/congratulationsText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Congratulations Ajay!"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:gravity="center"
+           android:layout_marginTop="16dp"/>
+
+       <!-- Score Text -->
+       <TextView
+           android:id="@+id/scoreText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Your score is 2 out of 3."
+           android:textSize="20sp"
+           android:gravity="center"
+           android:layout_marginTop="8dp"/>
+
+       <!-- Finish Button -->
+       <Button
+           android:id="@+id/finishButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="FINISH"
+           android:layout_marginTop="24dp"
+           android:backgroundTint="@color/blue"
+           android:textColor="@android:color/white"/>
+
+       <!-- Play Again Button -->
+       <Button
+           android:id="@+id/playAgainButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="PLAY AGAIN"
+           android:layout_marginTop="8dp"
+           android:backgroundTint="@color/blue"
+           android:textColor="@android:color/white"/>
+   </LinearLayout>
+</LinearLayout>

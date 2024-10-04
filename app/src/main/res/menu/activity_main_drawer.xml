@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Quiz" android:id="@+id/nav_quiz">
+        <menu>
+            <item
+                android:id="@+id/nav_rules"
+                android:icon="@drawable/ic_rule"
+                android:iconTint="@color/icon"
+                android:title="Rules" />
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_history"
+                android:iconTint="@color/icon"
+                android:title="History" />
+        </menu>
+    </item>
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/baseline_home_24"
+                android:iconTint="@color/icon"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:iconTint="@color/icon"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:iconTint="@color/icon"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:iconTint="@color/icon"
+                android:title="Settings" />
+        </menu>
+    </item>
+</menu>
